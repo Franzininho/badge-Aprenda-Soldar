@@ -1,0 +1,225 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:necklace_diy-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L BC548 Q1
+U 1 1 5B2E8073
+P 4375 1950
+F 0 "Q1" H 4575 2025 50  0000 L CNN
+F 1 "BC548" H 4575 1950 50  0000 L CNN
+F 2 "TO_SOT_Packages_THT:TO-92_Inline_Narrow_Oval" H 4575 1875 50  0001 L CIN
+F 3 "" H 4375 1950 50  0001 L CNN
+	1    4375 1950
+	-1   0    0    -1  
+$EndComp
+$Comp
+L BC548 Q2
+U 1 1 5B2E80BF
+P 5400 1950
+F 0 "Q2" H 5600 2025 50  0000 L CNN
+F 1 "BC548" H 5600 1950 50  0000 L CNN
+F 2 "TO_SOT_Packages_THT:TO-92_Inline_Narrow_Oval" H 5600 1875 50  0001 L CIN
+F 3 "" H 5400 1950 50  0001 L CNN
+	1    5400 1950
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R1
+U 1 1 5B2E80EC
+P 4275 1000
+F 0 "R1" V 4355 1000 50  0000 C CNN
+F 1 "150R" V 4275 1000 50  0000 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 4205 1000 50  0001 C CNN
+F 3 "" H 4275 1000 50  0001 C CNN
+	1    4275 1000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Battery_Cell BT1
+U 1 1 5B2E8165
+P 3625 1575
+F 0 "BT1" H 3725 1675 50  0000 L CNN
+F 1 "Battery_Cell" H 3725 1575 50  0000 L CNN
+F 2 "Connectors:CR2032H" V 3625 1635 50  0001 C CNN
+F 3 "" V 3625 1635 50  0001 C CNN
+	1    3625 1575
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED D1
+U 1 1 5B2E818E
+P 4275 1375
+F 0 "D1" H 4275 1475 50  0000 C CNN
+F 1 "LED" H 4275 1275 50  0000 C CNN
+F 2 "LEDs:LED_D3.0mm" H 4275 1375 50  0001 C CNN
+F 3 "" H 4275 1375 50  0001 C CNN
+	1    4275 1375
+	0    -1   -1   0   
+$EndComp
+$Comp
+L CP C1
+U 1 1 5B2E81BF
+P 4550 1675
+F 0 "C1" H 4575 1775 50  0000 L CNN
+F 1 "22uF" H 4575 1575 50  0000 L CNN
+F 2 "Capacitors_THT:CP_Radial_D5.0mm_P2.50mm" H 4588 1525 50  0001 C CNN
+F 3 "" H 4550 1675 50  0001 C CNN
+	1    4550 1675
+	0    -1   -1   0   
+$EndComp
+$Comp
+L LED D2
+U 1 1 5B2E8AB4
+P 5500 1400
+F 0 "D2" H 5500 1500 50  0000 C CNN
+F 1 "LED" H 5500 1300 50  0000 C CNN
+F 2 "LEDs:LED_D3.0mm" H 5500 1400 50  0001 C CNN
+F 3 "" H 5500 1400 50  0001 C CNN
+	1    5500 1400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L R R4
+U 1 1 5B2E8B25
+P 5500 1000
+F 0 "R4" V 5580 1000 50  0000 C CNN
+F 1 "150R" V 5500 1000 50  0000 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 5430 1000 50  0001 C CNN
+F 3 "" H 5500 1000 50  0001 C CNN
+	1    5500 1000
+	1    0    0    -1  
+$EndComp
+$Comp
+L CP C2
+U 1 1 5B2E8BE9
+P 5250 1650
+F 0 "C2" H 5275 1750 50  0000 L CNN
+F 1 "22uF" H 5275 1550 50  0000 L CNN
+F 2 "Capacitors_THT:CP_Radial_D5.0mm_P2.50mm" H 5288 1500 50  0001 C CNN
+F 3 "" H 5250 1650 50  0001 C CNN
+	1    5250 1650
+	0    1    1    0   
+$EndComp
+$Comp
+L R R2
+U 1 1 5B2E8C72
+P 4775 1000
+F 0 "R2" V 4855 1000 50  0000 C CNN
+F 1 "47k" V 4775 1000 50  0000 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 4705 1000 50  0001 C CNN
+F 3 "" H 4775 1000 50  0001 C CNN
+	1    4775 1000
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R3
+U 1 1 5B2E8CE2
+P 5050 1000
+F 0 "R3" V 5130 1000 50  0000 C CNN
+F 1 "47k" V 5050 1000 50  0000 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 4980 1000 50  0001 C CNN
+F 3 "" H 5050 1000 50  0001 C CNN
+	1    5050 1000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4275 1525 4275 1750
+Wire Wire Line
+	4400 1675 4275 1675
+Connection ~ 4275 1675
+Wire Wire Line
+	5500 1550 5500 1750
+Wire Wire Line
+	5400 1650 5500 1650
+Connection ~ 5500 1650
+Wire Wire Line
+	5500 1150 5500 1250
+Wire Wire Line
+	4275 1150 4275 1225
+Wire Wire Line
+	4775 1150 4775 1850
+Wire Wire Line
+	4775 1675 4700 1675
+Wire Wire Line
+	5050 1150 5050 1650
+Wire Wire Line
+	4950 1650 5100 1650
+Wire Wire Line
+	5500 700  5500 850 
+Wire Wire Line
+	3625 700  5500 700 
+Wire Wire Line
+	4275 700  4275 850 
+Wire Wire Line
+	4775 850  4775 700 
+Connection ~ 4775 700 
+Wire Wire Line
+	5050 700  5050 850 
+Connection ~ 5050 700 
+Wire Wire Line
+	4575 1950 4950 1950
+Wire Wire Line
+	4950 1950 4950 1650
+Connection ~ 5050 1650
+Wire Wire Line
+	4775 1850 5125 1850
+Wire Wire Line
+	5125 1850 5125 1950
+Wire Wire Line
+	5125 1950 5200 1950
+Connection ~ 4775 1675
+Wire Wire Line
+	4275 2150 4275 2275
+Wire Wire Line
+	3625 2275 5500 2275
+Wire Wire Line
+	5500 2275 5500 2150
+Wire Wire Line
+	3625 700  3625 1375
+Connection ~ 4275 700 
+Wire Wire Line
+	3625 2275 3625 1675
+Connection ~ 4275 2275
+$EndSCHEMATC

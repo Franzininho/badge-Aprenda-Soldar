@@ -1,0 +1,5 @@
+(fp_lib_table
+  (lib (name Graphics)(type KiCad)(uri "$(KIPRJMOD)/Graphics.pretty")(options "")(descr ""))
+  (lib (name Battery_Holders)(type KiCad)(uri C:/Users/fabio/Dropbox/Kicad/bibliotecas/Battery_Holders.pretty-master/Battery_Holders.pretty-master)(options "")(descr ""))
+  (lib (name library)(type KiCad)(uri "$(KIPRJMOD)/library.pretty")(options "")(descr ""))
+)

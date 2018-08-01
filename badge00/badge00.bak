@@ -1,35 +1,6 @@
-EESchema Schematic File Version 2
-LIBS:power
-LIBS:device
-LIBS:transistors
-LIBS:conn
-LIBS:linear
-LIBS:regul
-LIBS:74xx
-LIBS:cmos4000
-LIBS:adc-dac
-LIBS:memory
-LIBS:xilinx
-LIBS:microcontrollers
-LIBS:dsp
-LIBS:microchip
-LIBS:analog_switches
-LIBS:motorola
-LIBS:texas
-LIBS:intel
-LIBS:audio
-LIBS:interface
-LIBS:digital-audio
-LIBS:philips
-LIBS:display
-LIBS:cypress
-LIBS:siliconi
-LIBS:opto
-LIBS:atmel
-LIBS:contrib
-LIBS:valves
+EESchema Schematic File Version 4
 LIBS:badge00-cache
-EELAYER 25 0
+EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -44,7 +15,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L BC548 Q1
+L transistors:BC548 Q1
 U 1 1 5B2E8073
 P 5425 3700
 F 0 "Q1" H 5625 3775 50  0000 L CNN
@@ -55,7 +26,7 @@ F 3 "" H 5425 3700 50  0001 L CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L BC548 Q2
+L transistors:BC548 Q2
 U 1 1 5B2E80BF
 P 6450 3700
 F 0 "Q2" H 6650 3775 50  0000 L CNN
@@ -66,18 +37,18 @@ F 3 "" H 6450 3700 50  0001 L CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R1
+L Device:R R1
 U 1 1 5B2E80EC
 P 5325 2750
 F 0 "R1" V 5405 2750 50  0000 C CNN
-F 1 "150R" V 5325 2750 50  0000 C CNN
+F 1 "470R" V 5325 2750 50  0000 C CNN
 F 2 "Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 5255 2750 50  0001 C CNN
 F 3 "" H 5325 2750 50  0001 C CNN
 	1    5325 2750
 	1    0    0    -1  
 $EndComp
 $Comp
-L Battery_Cell BT1
+L Device:Battery_Cell BT1
 U 1 1 5B2E8165
 P 4675 3325
 F 0 "BT1" H 4775 3425 50  0000 L CNN
@@ -88,7 +59,7 @@ F 3 "" V 4675 3385 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L LED D1
+L Device:LED D1
 U 1 1 5B2E818E
 P 5325 3125
 F 0 "D1" H 5325 3225 50  0000 C CNN
@@ -99,18 +70,18 @@ F 3 "" H 5325 3125 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L CP C1
+L Device:CP C1
 U 1 1 5B2E81BF
 P 5600 3425
 F 0 "C1" H 5625 3525 50  0000 L CNN
-F 1 "22uF" H 5625 3325 50  0000 L CNN
+F 1 "10uF" H 5625 3325 50  0000 L CNN
 F 2 "Capacitors_THT:CP_Radial_D5.0mm_P2.50mm" H 5638 3275 50  0001 C CNN
 F 3 "" H 5600 3425 50  0001 C CNN
 	1    5600 3425
 	0    -1   -1   0   
 $EndComp
 $Comp
-L LED D2
+L Device:LED D2
 U 1 1 5B2E8AB4
 P 6550 3150
 F 0 "D2" H 6550 3250 50  0000 C CNN
@@ -121,29 +92,29 @@ F 3 "" H 6550 3150 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L R R4
+L Device:R R4
 U 1 1 5B2E8B25
 P 6550 2750
 F 0 "R4" V 6630 2750 50  0000 C CNN
-F 1 "150R" V 6550 2750 50  0000 C CNN
+F 1 "470R" V 6550 2750 50  0000 C CNN
 F 2 "Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 6480 2750 50  0001 C CNN
 F 3 "" H 6550 2750 50  0001 C CNN
 	1    6550 2750
 	1    0    0    -1  
 $EndComp
 $Comp
-L CP C2
+L Device:CP C2
 U 1 1 5B2E8BE9
 P 6300 3400
 F 0 "C2" H 6325 3500 50  0000 L CNN
-F 1 "22uF" H 6325 3300 50  0000 L CNN
+F 1 "10uF" H 6325 3300 50  0000 L CNN
 F 2 "Capacitors_THT:CP_Radial_D5.0mm_P2.50mm" H 6338 3250 50  0001 C CNN
 F 3 "" H 6300 3400 50  0001 C CNN
 	1    6300 3400
 	0    1    1    0   
 $EndComp
 $Comp
-L R R2
+L Device:R R2
 U 1 1 5B2E8C72
 P 5825 2750
 F 0 "R2" V 5905 2750 50  0000 C CNN
@@ -154,7 +125,7 @@ F 3 "" H 5825 2750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R3
+L Device:R R3
 U 1 1 5B2E8CE2
 P 6100 2750
 F 0 "R3" V 6180 2750 50  0000 C CNN
@@ -165,12 +136,12 @@ F 3 "" H 6100 2750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	5325 3275 5325 3500
+	5325 3275 5325 3425
 Wire Wire Line
 	5450 3425 5325 3425
 Connection ~ 5325 3425
 Wire Wire Line
-	6550 3300 6550 3500
+	6550 3300 6550 3400
 Wire Wire Line
 	6450 3400 6550 3400
 Connection ~ 6550 3400
@@ -179,17 +150,17 @@ Wire Wire Line
 Wire Wire Line
 	5325 2900 5325 2975
 Wire Wire Line
-	5825 2900 5825 3600
+	5825 2900 5825 3425
 Wire Wire Line
 	5825 3425 5750 3425
 Wire Wire Line
 	6100 2900 6100 3400
 Wire Wire Line
-	6000 3400 6150 3400
+	6000 3400 6100 3400
 Wire Wire Line
 	6550 2450 6550 2600
 Wire Wire Line
-	4675 2450 6550 2450
+	4675 2450 5325 2450
 Wire Wire Line
 	5325 2450 5325 2600
 Wire Wire Line
@@ -213,7 +184,7 @@ Connection ~ 5825 3425
 Wire Wire Line
 	5325 3900 5325 4025
 Wire Wire Line
-	4675 4025 6550 4025
+	4675 4025 5325 4025
 Wire Wire Line
 	6550 4025 6550 3900
 Wire Wire Line
@@ -222,4 +193,20 @@ Connection ~ 5325 2450
 Wire Wire Line
 	4675 4025 4675 3425
 Connection ~ 5325 4025
+Wire Wire Line
+	5325 3425 5325 3500
+Wire Wire Line
+	6550 3400 6550 3500
+Wire Wire Line
+	5825 2450 6100 2450
+Wire Wire Line
+	6100 2450 6550 2450
+Wire Wire Line
+	6100 3400 6150 3400
+Wire Wire Line
+	5825 3425 5825 3600
+Wire Wire Line
+	5325 2450 5825 2450
+Wire Wire Line
+	5325 4025 6550 4025
 $EndSCHEMATC

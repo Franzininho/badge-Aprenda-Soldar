@@ -1,21 +1,50 @@
 EESchema Schematic File Version 4
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
 LIBS:badge00-cache
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
-Title "Badge - Aprenda Soldar"
-Date "2018-08-01"
-Rev "V0"
-Comp "Franzininho"
+Title ""
+Date ""
+Rev ""
+Comp ""
 Comment1 ""
 Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L transistors:BC548 Q1
+L BC548 Q1
 U 1 1 5B2E8073
 P 5425 3700
 F 0 "Q1" H 5625 3775 50  0000 L CNN
@@ -26,7 +55,7 @@ F 3 "" H 5425 3700 50  0001 L CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L transistors:BC548 Q2
+L BC548 Q2
 U 1 1 5B2E80BF
 P 6450 3700
 F 0 "Q2" H 6650 3775 50  0000 L CNN
@@ -37,7 +66,7 @@ F 3 "" H 6450 3700 50  0001 L CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R1
+L R R1
 U 1 1 5B2E80EC
 P 5325 2750
 F 0 "R1" V 5405 2750 50  0000 C CNN
@@ -48,7 +77,7 @@ F 3 "" H 5325 2750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:Battery_Cell BT1
+L Battery_Cell BT1
 U 1 1 5B2E8165
 P 4675 3325
 F 0 "BT1" H 4775 3425 50  0000 L CNN
@@ -59,7 +88,7 @@ F 3 "" V 4675 3385 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:LED D1
+L LED D1
 U 1 1 5B2E818E
 P 5325 3125
 F 0 "D1" H 5325 3225 50  0000 C CNN
@@ -70,7 +99,7 @@ F 3 "" H 5325 3125 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:CP C1
+L CP C1
 U 1 1 5B2E81BF
 P 5600 3425
 F 0 "C1" H 5625 3525 50  0000 L CNN
@@ -81,7 +110,7 @@ F 3 "" H 5600 3425 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:LED D2
+L LED D2
 U 1 1 5B2E8AB4
 P 6550 3150
 F 0 "D2" H 6550 3250 50  0000 C CNN
@@ -92,7 +121,7 @@ F 3 "" H 6550 3150 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:R R4
+L R R4
 U 1 1 5B2E8B25
 P 6550 2750
 F 0 "R4" V 6630 2750 50  0000 C CNN
@@ -103,7 +132,7 @@ F 3 "" H 6550 2750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:CP C2
+L CP C2
 U 1 1 5B2E8BE9
 P 6300 3400
 F 0 "C2" H 6325 3500 50  0000 L CNN
@@ -114,7 +143,7 @@ F 3 "" H 6300 3400 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R R2
+L R R2
 U 1 1 5B2E8C72
 P 5825 2750
 F 0 "R2" V 5905 2750 50  0000 C CNN
@@ -125,7 +154,7 @@ F 3 "" H 5825 2750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R3
+L R R3
 U 1 1 5B2E8CE2
 P 6100 2750
 F 0 "R3" V 6180 2750 50  0000 C CNN

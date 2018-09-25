@@ -1,0 +1,8 @@
+Reference, Quantity, Value, Footprint, Datasheet
+BT1 ,1,"Battery_Cell","library:CR2032_HOLDER",""
+C1 C2 ,2,"10uF","Capacitors_THT:CP_Radial_D5.0mm_P2.50mm",""
+D1 D2 ,2,"LED","LEDs:LED_D3.0mm",""
+Q1 Q2 ,2,"BC548","library:TO-92_Inline_Wide",""
+R1 R4 ,2,"470R","Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal",""
+R2 R3 ,2,"47k","Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal",""
+SW1 ,1,"SW_SPDT","library:SW_HH_SS12D07-G4-2",""

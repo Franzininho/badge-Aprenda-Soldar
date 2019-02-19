@@ -1,4 +1,4 @@
-update=01/08/2018 12:21:06
+update=18/02/2019 22:11:43
 version=1
 last_client=kicad
 [pcbnew]
@@ -31,7 +31,7 @@ LibDir=
 [schematic_editor]
 version=1
 PageLayoutDescrFile=
-PlotDirectoryName=
+PlotDirectoryName=C:/Users/fabio/Documents/GitHub/Open-Badges/badge00/
 SubpartIdSeparator=0
 SubpartFirstId=65
 NetFmtName=

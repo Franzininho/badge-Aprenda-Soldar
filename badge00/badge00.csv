@@ -1,0 +1,13 @@
+"Id";"Designator";"Package";"Quantity";"Designation";"Supplier and ref";
+1;"BT1";"CR2032_HOLDER";1;"Battery_Cell";;;
+2;"R1,R4";"R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal";2;"470R";;;
+3;"REF**";"MountingHole_3.5mm";1;"MountingHole_3.5mm";;;
+4;"C1,C2";"CP_Radial_D5.0mm_P2.50mm";2;"10uF";;;
+5;"D1,D2";"LED_D3.0mm";2;"LED";;;
+6;"R2,R3";"R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal";2;"47k";;;
+7;"Q1,Q2";"TO-92_Inline_Wide";2;"BC548";;;
+8;"G***";"robot2_35x35";1;"LOGO";;;
+9;"G***";"logo-franzininho12_7";1;"LOGO";;;
+10;"SW1";"SW_HH_SS12D07-G4-2";1;"SW_SPDT";;;
+11;"REF***";"OSHW-Logo_7.5x8mm_SilkScreen";1;"OSHW-Logo_7.5x8mm_SilkScreen";;;
+12;"REF***";"KiCad-Logo2_6mm_SilkScreen";1;"KiCad-Logo2_6mm_SilkScreen";;;

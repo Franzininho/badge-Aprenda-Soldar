@@ -1,0 +1,11 @@
+Ref		Descrição									Quatidade
+placa	Placa Badge00									1
+Q1,Q2	Transistor BC548								2
+C1, C2	Capacitor Eletrolítico 10uF x 25 V				2
+R1,r4	Resistor 470R									2
+R2,R3	Resistor 47K									2
+BT1		Suporte de bateria CR2032						1
+BT1		Bateria CR2032									1
+LED1	Led Amarelo 3mm									1
+LED2	LED Verde 3mm									1
+S1		Chave HH - SS12D07								1

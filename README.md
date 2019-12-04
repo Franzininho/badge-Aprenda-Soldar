@@ -1,7 +1,7 @@
 # Badge - Aprenda Soldar
 
 
-Este badge Aprenda Sooldar foi desenvolvido para oficinas de solda onde os participantes dão os primeiros passos com o uso de ferramentas e o conhecimento dos componentes. Com poucos componentes, esse badge permite que qualquer pessoa aprenda a soldar e se divertir.
+O badge Aprenda Soldar foi desenvolvido para oficinas de solda onde os participantes dão os primeiros passos com o uso de ferramentas e no conhecimento dos componentes eletrônicos e circuito da placa. Com poucos componentes, esse badge permite que qualquer pessoa aprenda a soldar e se divertir.
 
 O circuito escolhido para esse badge, foi o clássico multivibrador astável com trasistores.
 

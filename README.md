@@ -20,13 +20,13 @@ A seguir é apresentada a lista de materiais:
 - 1 x Bateria CR2032
 
 
-Esse projeto foi um dos vencedores do [Contest badge Love](https://www.hackster.io/contests/BadgeLove) na categoria The Badge of Hope, promovido pelo [Hackster](https://www.hackster.io/)
+Esse projeto foi um dos vencedores do [Contest badge Love](https://www.hackster.io/contests/BadgeLove) na categoria The Badge of Hope, promovido pelo [Hackster](https://www.hackster.io/fabiosouza/badge-aprenda-soldar-learn-to-solder-1f082d)
 
 O projeto é open hardware e foi publicado sob a licença [Creative Commons Attribution Share Alike 4.0 International](https://github.com/Open-Badges/badge00/blob/master/LICENSE)
 
 
 Esse projeto faz parte da família de placas Franzininho e foi desenvolvido por Fábio Souza, idealizador do projeto. Para mais detalhes acesse o site da [Franzininho](https://franzininho.com.br/)
 
-
+Para adquirir placas e kits do badge Aprenda Soldar, entre em contato conosco: [contato@franzininho.com.br](contato@franzininho.com.br)
 
 
